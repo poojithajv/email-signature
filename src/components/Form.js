@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import { useNavigate } from 'react-router-dom';
-import globemovinglogo from '../globemovinglogo.jpg'
+import globemovinglogo from '../images/globemovinglogo.jpg'
 import {FaUser} from 'react-icons/fa'
 import {LuNetwork} from 'react-icons/lu'
 import {FaMobileAlt} from  'react-icons/fa'
@@ -8,15 +8,15 @@ import {GoMail} from 'react-icons/go'
 import {BiSolidPhoneCall}  from  'react-icons/bi'
 import {MdLocationPin} from 'react-icons/md'
 import {RxGlobe} from 'react-icons/rx'
-import tuvlogo from '../tuvlogo.png'
-import faimpluslogo from '../faimpluslogo.jpg'
-import fidilogo from '../fidilogo.jpg'
-import iamlogo from '../iamlogo.png'
-import omalogo from '../omalogo.png'
-import imalogo from '../imalogo.png'
-import paimalogo from '../paimalogo.jpg'
-import weconnectlogo from '../weconnectlogo.jpg'
-import handlogo from '../handlogo.PNG'
+import tuvlogo from '../images/tuvlogo.png'
+import faimpluslogo from '../images/faimpluslogo.jpg'
+import fidilogo from '../images/fidilogo.jpg'
+import iamlogo from '../images/iamlogo.png'
+import omalogo from '../images/omalogo.png'
+import imalogo from '../images/imalogo.png'
+import paimalogo from '../images/paimalogo.jpg'
+import weconnectlogo from '../images/weconnectlogo.jpg'
+import handlogo from '../images/handlogo.PNG'
 import '../App.css'
 
 function Form() {
@@ -55,7 +55,7 @@ function Form() {
             <div className='icon-details-cont'>
                 <div className='icon-detail'>
                     <FaUser size={20} />
-                    <p><input 
+                    <p ><input 
                         id='name'
                         type="text" 
                         name="name" 
