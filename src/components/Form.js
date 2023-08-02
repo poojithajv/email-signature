@@ -59,6 +59,7 @@ function Form() {
                         id='name'
                         type="text" 
                         name="name" 
+                        placeholder='Name'
                         value={inputs.name || ""} 
                         onChange={handleChange}
                         style={{marginBottom:'10px'}}
@@ -71,6 +72,7 @@ function Form() {
                         id='designation'
                         type="text" 
                         name="designation" 
+                        placeholder='Designation'
                         value={inputs.designation || ""} 
                         onChange={handleChange}
                         style={{marginBottom:'10px'}}
@@ -82,6 +84,7 @@ function Form() {
                         id='telephone'
                         type="text" 
                         name="tel" 
+                        placeholder='Phone Number'
                         value={inputs.tel || ""} 
                         onChange={handleChange}
                         style={{marginBottom:'10px'}}
@@ -92,6 +95,7 @@ function Form() {
                     <p><input 
                         id='email'
                         type="text" 
+                        placeholder='Email ID'
                         name="email" 
                         value={inputs.email || ""} 
                         onChange={handleChange}
@@ -111,12 +115,13 @@ function Form() {
                 </div>
             </div>
             <div className='file'>
-                <input 
+                <label style={{fontSize:'16px'}}><input 
                 type="file" 
                 accept="image/*"
                 name="pic"  
                 onChange={handleChangePic}
-                />
+                />Upload Image</label>
+                
             </div>
         </div>
         <div className='second-container'>
