@@ -46,7 +46,7 @@ function Signature() {
     
         // Convert React component to PNG image
         const pngBlob = await toPng(componentRef.current);
-        saveAs(pngBlob, 'my_component.png'); // Download the PNG image
+        saveAs(pngBlob, `${data.inputs.name}.png`); // Download the PNG image
       };
 
     const handleResize=()=>{
