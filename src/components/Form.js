@@ -61,6 +61,7 @@ function Form() {
                         name="name" 
                         value={inputs.name || ""} 
                         onChange={handleChange}
+                        style={{marginBottom:'10px'}}
                         />
                         </p>
                 </div>
@@ -72,6 +73,7 @@ function Form() {
                         name="designation" 
                         value={inputs.designation || ""} 
                         onChange={handleChange}
+                        style={{marginBottom:'10px'}}
                     /></p>
                 </div>
                 <div className='icon-detail'>
@@ -82,6 +84,7 @@ function Form() {
                         name="tel" 
                         value={inputs.tel || ""} 
                         onChange={handleChange}
+                        style={{marginBottom:'10px'}}
                     /></p>
                 </div>
                 <div className='icon-detail'>
