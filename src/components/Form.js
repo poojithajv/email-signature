@@ -99,15 +99,31 @@ function Form() {
                         name="email" 
                         value={inputs.email || ""} 
                         onChange={handleChange}
+                        style={{marginBottom:'10px'}}
                     /></p>
                 </div>
                 <div className='icon-detail'>
                     <BiSolidPhoneCall size={20}/>
-                    <p className='detail'>+91 80 4211 5151</p>
+                    <p><input 
+                        id='officeNo'
+                        type="text" 
+                        placeholder='Company Mobile Number'
+                        name="officeNo" 
+                        value={inputs.officeNo || ""} 
+                        onChange={handleChange}
+                        style={{marginBottom:'10px'}}
+                    /></p>
                 </div>
                 <div className='icon-detail'>
                     <MdLocationPin size={20}/>
-                    <p className='detail'>#141, Sri Shanti Towers, 3rd Floor, Kasturi Nagar, Bangalore 560043. India</p>
+                    <p><input 
+                        id='officeAddress'
+                        type="text" 
+                        placeholder='Company Location'
+                        name="officeAddress" 
+                        value={inputs.officeAddress || ""} 
+                        onChange={handleChange}
+                    /></p>
                 </div>
                 <div className='icon-detail'>
                     <RxGlobe size={20}/>

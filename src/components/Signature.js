@@ -173,31 +173,31 @@ function Signature() {
                 <img src={globemovinglogo} alt='globemovinglogo' className='globelogo' />
                 <div className='icon-details-cont'>
                     <div className='icon-detail'>
-                        <FaUser size={20} />
+                        <FaUser size={20} style={{marginTop:'5px'}}/>
                         <p className='detail'>{data.inputs.name}</p>
                     </div>
                     <div className='icon-detail'>
-                        <LuNetwork size={20} />
+                        <LuNetwork size={20} style={{marginTop:'5px'}}/>
                         <p className='detail'>{data.inputs.designation}</p>
                     </div>
                     <div className='icon-detail'>
-                        <FaMobileAlt size={20} />
+                        <FaMobileAlt size={20} style={{marginTop:'5px'}}/>
                         <p className='detail'>{data.inputs.tel}</p>
                     </div>
                     <div className='icon-detail'>
-                        <GoMail size={20} />
+                        <GoMail size={20} style={{marginTop:'5px'}}/>
                         <p className='detail'>{data.inputs.email}</p>
                     </div>
                     <div className='icon-detail'>
-                        <BiSolidPhoneCall size={20} />
-                        <p className='detail'>+91 80 4211 5151</p>
+                        <BiSolidPhoneCall size={20} style={{marginTop:'5px'}} />
+                        <p className='detail'>{data.inputs.officeNo}</p>
                     </div>
                     <div className='icon-detail'>
-                        <MdLocationPin size={20} />
-                        <p className='detail' style={{fontSize:'18px'}}>#141, Sri Shanti Towers, 3rd Floor, Kasturi Nagar, Bangalore 560043. India</p>
+                        <MdLocationPin size={20} style={{marginTop:'5px'}}/>
+                        <p className='detail' style={{fontSize:'18px'}}>{data.inputs.officeAddress}</p>
                     </div>
                     <div className='icon-detail'>
-                        <RxGlobe size={20} />
+                        <RxGlobe size={20} style={{marginTop:'5px'}}/>
                         <p className='detail'>www.globemoving.net</p>
                     </div>
                 </div>
