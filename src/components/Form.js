@@ -126,8 +126,8 @@ function Form() {
                     /></p>
                 </div>
                 <div className='icon-detail'>
-                    <RxGlobe size={20}/>
-                    <p className='detail'>www.globemoving.net</p>
+                    <RxGlobe size={20} style={{marginLeft:'-50px',marginRight:'20px'}}/>
+                    <p className='detail1'>www.globemoving.net</p>
                 </div>
             </div>
             <div className='file'>
