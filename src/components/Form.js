@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import { useNavigate } from 'react-router-dom';
 import globemovinglogo from '../images/globemovinglogo.jpg'
+import { SiGooglemaps } from "react-icons/si";
 import {FaUser} from 'react-icons/fa'
 import {LuNetwork} from 'react-icons/lu'
 import {FaMobileAlt} from  'react-icons/fa'
@@ -45,6 +46,9 @@ function Form() {
     event.preventDefault();
     navigate('/signature',{state:data})
   }
+  const onClickNavigateToMap = () => {
+    navigate("/maps");
+  };
   const data={inputs,image}
   console.log(data)
   return (
@@ -165,7 +169,15 @@ function Form() {
             <p className='email'>Please consider the environment before printing this e-mail!</p>
         </div>
     </div>
+    <div className="btn-container">
     <button type='submit' onClick={handleSubmit} className='submit'>Submit Changes</button>
+    <div style={{ width: "10px" }}></div>
+        <div style={{ cursor: "pointer" }} onClick={onClickNavigateToMap}>
+          <SiGooglemaps className="maps-icon" />
+          <span style={{ fontSize: "14px" }}>Maps</span>
+        </div>
+    </div>
+    
     </div>
   );
 }

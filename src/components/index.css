@@ -22,6 +22,26 @@
     font-size: 20px;
     width:150px;
   } */
+  .top-container-map {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+  }
+  .top-container-map > * {
+    margin: 0 5px; /* Add space between elements */
+  }
+  .btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .maps-icon {
+    font-size: 1.5em;
+    margin-left: "10px";
+  }
   .file{
     font-size: 20px;
     width:150px;
